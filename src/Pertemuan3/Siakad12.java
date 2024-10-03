@@ -12,24 +12,24 @@ public class Siakad12 {
         char kelas;
         byte absen;
         double nilaiKuis, nilaiTugas, nilaiUjian, nilaiAkhir;
-        System.out.println("Masukkan Nama: ");
+        System.out.print("Masukkan Nama: ");
         nama = sc.nextLine();
-        System.out.println("Masukkan Nim: ");
+        System.out.print("Masukkan Nim: ");
         nim = sc.nextLine();
-        System.out.println("Masukkan kelas: ");
+        System.out.print("Masukkan kelas: ");
         kelas = sc.nextLine().charAt(0);
-        System.out.println("Masukkan nomor absen: ");
+        System.out.print("Masukkan nomor absen: ");
         absen = sc.nextByte();
-        System.out.println("Masukkan nilai kuis: ");
+        System.out.print("Masukkan nilai kuis: ");
         nilaiKuis = sc.nextDouble();
-        System.out.println("Masukkan nilai tugas: ");
+        System.out.print("Masukkan nilai tugas: ");
         nilaiTugas = sc.nextDouble();
-        System.out.println("Masukkan nilai ujian: ");
+        System.out.print("Masukkan nilai ujian: ");
         nilaiUjian = sc.nextDouble();
         nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
-        System.out.println("Nama: " + nama + " NIM: ");
-        System.out.println("Kelas: " + kelas + " Absen : " + absen);
-        System.out.println("Nilai Akhir : " + nilaiAkhir);
+        System.out.print("Nama: " + nama + " NIM: ");
+        System.out.print("Kelas: " + kelas + " Absen : " + absen);
+        System.out.print("Nilai Akhir : " + nilaiAkhir);
 
     }
 }

@@ -33,7 +33,7 @@ public class PemilihanSwitch12 {
                 break;     
 
         }
-        System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
+        System.out.println(angka1 + operator + angka2 + " = " + hasil);
         sc.close();
 
     }
