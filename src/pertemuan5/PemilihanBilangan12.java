@@ -12,7 +12,7 @@ public class PemilihanBilangan12 {
     System.out.print("Masukkan sebuah angka: ");
     int angka = sc.nextInt();
 
-    String hasil = (angka % 2 == 0)? "Genap" : "Ganjil";
+    String hasil = (angka % 4 == 0)? "Genap" : "Ganjil";
     
     System.out.println("Angka " + angka + "Adalah " + hasil);   
     {
