@@ -27,9 +27,10 @@ public class Siakad12 {
         System.out.print("Masukkan nilai ujian: ");
         nilaiUjian = sc.nextDouble();
         nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
-        System.out.print("Nama: " + nama + " NIM: ");
-        System.out.print("Kelas: " + kelas + " Absen : " + absen);
-        System.out.print("Nilai Akhir : " + nilaiAkhir);
+        System.out.println("Nama: " + nama + " NIM: " + nim);
+        System.out.println("Kelas: " + kelas + " Absen : " + absen);
+        System.out.println("Nilai Akhir : " + nilaiAkhir);
+        System.out.println("Mahasiswa dengan nama " + nama + " (NIM " + nim + ") kelas " + kelas + " nomor absen " + absen);
 
     }
 }
