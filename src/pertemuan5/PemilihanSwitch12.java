@@ -30,10 +30,13 @@ public class PemilihanSwitch12 {
                 break;
             case '/':
                 hasil = angka1 / angka2;
-                break;     
+                break;
+        default:
+        System.out.println("operator tidak ditemukan");
+        return;
 
         }
-        System.out.println(angka1 + operator + angka2 + " = " + hasil);
+        System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
         sc.close();
 
     }
