@@ -25,7 +25,7 @@ public class Pemilihan2Percobaan212 {
         System.out.print("Apakah punya member (y/n)  / = ");
         member = duaBelas.nextLine();
 
-        if (member.equalsIgnoreCase("y")) {
+        if (member.equals("y")) {
             diskon = 0.10;
             System.out.println("Besar diskon = 10%");
             if (pilihan_menu == 1) {
