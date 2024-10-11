@@ -29,7 +29,7 @@ public class KafeDoWhile12 {
 
             
             totalHarga = (kopi * hargaKopi) + (teh * hargaTeh) + (roti * hargaRoti);
-            System.out.println("Total yang harus dibayar: Rp " + totalHarga);
+            System.out.println("Total yang harus Dibayar: Rp " + totalHarga);
             
             sc.nextLine(); 
 
