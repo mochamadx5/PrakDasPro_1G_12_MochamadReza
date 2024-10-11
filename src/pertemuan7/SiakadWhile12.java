@@ -10,6 +10,7 @@ public class SiakadWhile12 {
         System.out.print("Masukkan jumlah mahasiswa: ");
         jml = sc.nextInt(); 
 
+        
         while (i < jml) {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
