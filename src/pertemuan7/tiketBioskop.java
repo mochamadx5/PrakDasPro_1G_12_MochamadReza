@@ -16,7 +16,7 @@ public class tiketBioskop {
                 break;
             }
             if (jumlahTiket < 0) {
-                System.out.println("Jumlah tiket tidak valid, coba lagi.");
+                System.out.println("Jumlah tiket tidak valid, coba lagi");
                 continue;
             }
             double diskon = 0.0;
