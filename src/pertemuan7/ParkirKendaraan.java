@@ -34,7 +34,7 @@ public class ParkirKendaraan {
                 } else if (jenisKendaraan == 2) {
                     biayaParkir = durasiParkir * tarifMotorPerJam;
                 } else {
-                    System.out.println("Jenis kendaraan tidak valid, coba lagi.");
+                    System.out.println("Jenis kendaraan tidak valid, coba lagi");
                     continue;
                 }
             }
