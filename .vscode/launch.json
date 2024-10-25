@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "StarNoAbsen",
+            "request": "launch",
+            "mainClass": "pertemuan8.StarNoAbsen",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "SiakadFor12",
+            "request": "launch",
+            "mainClass": "pertemuan7.SiakadFor12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "SiakadWhile12",
+            "request": "launch",
+            "mainClass": "pertemuan7.SiakadWhile12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "gajipegawaitokosepeda",
+            "request": "launch",
+            "mainClass": "mochamadRezaFirdaus.gajipegawaitokosepeda",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "d:\\createjavaproject\\PrakDasPro_1G_12_MochamadReza\\src\\frontend WRI\\index.html"
+        }
+    ]
+}
