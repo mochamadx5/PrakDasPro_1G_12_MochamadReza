@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Star12",
+            "request": "launch",
+            "mainClass": "pertemuan8.Star12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "Square12",
+            "request": "launch",
+            "mainClass": "pertemuan8.Square12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "StarNoAbsen",
             "request": "launch",
             "mainClass": "pertemuan8.StarNoAbsen",
