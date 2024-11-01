@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PolaPersegiKompleks",
+            "request": "launch",
+            "mainClass": "pertemuan9.PolaPersegiKompleks",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "tugasNO1",
+            "request": "launch",
+            "mainClass": "pertemuan9.tugasNO1",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "arraybilangan12",
+            "request": "launch",
+            "mainClass": "pertemuan9.arraybilangan12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "Star12",
             "request": "launch",
             "mainClass": "pertemuan8.Star12",
