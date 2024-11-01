@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayNilai12",
+            "request": "launch",
+            "mainClass": "pertemuan9.ArrayNilai12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "tugasNO2",
             "request": "launch",
             "mainClass": "pertemuan9.tugasNO2",
