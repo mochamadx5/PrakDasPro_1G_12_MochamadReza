@@ -16,7 +16,7 @@ public class ArrayNilai12 {
             if (nilaiAkhir[i]>70) {
                 System.out.println("Mahasiswa ke-"+i+" lulus!");   
             } else {
-                System.out.println("ahasiswa ke-"+i+" tidak lulus!");
+                System.out.println("mahasiswa ke-"+i+" tidak lulus!");
             }
         
         }
