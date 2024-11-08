@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tugas2_12",
+            "request": "launch",
+            "mainClass": "pertemuan10.tugas2_12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "tugas1_12",
             "request": "launch",
             "mainClass": "pertemuan10.tugas1_12",
