@@ -16,7 +16,7 @@ public class Bioskop12 {
         penonton[3][0] = "Gisel";
         penonton[3][1] = "Hana";
         
-        System.out.println("Jumlah baris : " + penonton.length);
+        System.out.println("jumlah baris : " + penonton.length);
     
         for (int i = 0; i < penonton.length; i++) {
             System.out.println("Penonton pada baris ke- " + (i+1) + ": " + String.join(", ", penonton[i]));
