@@ -12,7 +12,7 @@ public class BioskopWithScanner12 {
         String next;
 
         String[][] penonton = new String[4][2];
-        
+
         while (true) {
             System.out.print("Masukkan nama : ");
             nama = sc.nextLine();
@@ -24,7 +24,7 @@ public class BioskopWithScanner12 {
 
             penonton[baris - 1][kolom - 1] = nama;
 
-            System.out.print("Input penonton lainnya? (y/n): " );
+            System.out.print("Input Penonton lainnya? (y/n): " );
             next = sc.nextLine();
 
             if (next.equalsIgnoreCase("n")) {
@@ -32,5 +32,4 @@ public class BioskopWithScanner12 {
             }
         }    
     }
-    
 }
