@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bioskop12",
+            "request": "launch",
+            "mainClass": "pertemuan11.Bioskop12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "namabulan12",
+            "request": "launch",
+            "mainClass": "pertemuan10.namabulan12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "tugas3_12",
             "request": "launch",
             "mainClass": "pertemuan10.tugas3_12",
