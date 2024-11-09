@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BioskopWithScanner12",
+            "request": "launch",
+            "mainClass": "pertemuan11.BioskopWithScanner12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "Bioskop12",
             "request": "launch",
             "mainClass": "pertemuan11.Bioskop12",

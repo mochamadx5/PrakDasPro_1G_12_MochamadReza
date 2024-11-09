@@ -21,8 +21,10 @@ public class Bioskop12 {
         for (int i = 0; i < penonton.length; i++) {
             System.out.println("Penonton pada baris ke- " + (i+1) + ": " + String.join(", ", penonton[i]));
         }
-        }
-        }
+
+    }
+    
+}
     
    
 
