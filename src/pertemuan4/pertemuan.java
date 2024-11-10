@@ -1,6 +1,4 @@
-/**
- * pertemuan
- */
+package pertemuan4;
 public class pertemuan {
 
     public static void main(String[] args) {
