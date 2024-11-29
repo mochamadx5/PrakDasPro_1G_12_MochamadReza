@@ -8,7 +8,7 @@ public class kafe12 {
         System.out.println("3. Latte - Rp 22,000");
         System.out.println("4. Teh tarik - Rp 12,000");
         System.out.println("5. Roti bakar - Rp 10,000");
-        System.out.println("6. Mie Goreng - Rp 18,000");
+        System.out.println("6. mie Goreng - Rp 18,000");
         System.out.println("==========================");
         System.out.println("Silakan pilin menu yang anda inginkan");
     }   
