@@ -1,4 +1,4 @@
-package mochamadRezaFirdaus;
+package UTS_mochamadRezaFirdaus;
 
 import java.util.Scanner;
 
@@ -39,7 +39,7 @@ public class gajipegawaitokosepeda {
                 System.out.print("Jumlah cuti (dalam hari): ");
                 jumlahCuti = reza.nextInt();
                 reza.nextLine();
-                isDataKaryawanDiberikan = true; // 
+                isDataKaryawanDiberikan = true;
                 System.out.print("Apakah anda ingin mencetak data karyawan? (y/t): ");
                 String dataKaryawan = reza.nextLine();
                 if (dataKaryawan.equalsIgnoreCase("y")) {
