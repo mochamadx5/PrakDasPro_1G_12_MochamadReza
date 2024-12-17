@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tugasMahasiswa",
+            "request": "launch",
+            "mainClass": "pertemuan13.tugasMahasiswa",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "MarianaKafe",
             "request": "launch",
             "mainClass": "pertemuan13.MarianaKafe",
