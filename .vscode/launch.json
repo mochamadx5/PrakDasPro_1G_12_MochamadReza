@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "programKu",
+            "request": "launch",
+            "mainClass": "pertemuan13.programKu",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "Percobaan6_12",
+            "request": "launch",
+            "mainClass": "pertemuan13.Percobaan6_12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "PengunjungCafe12",
             "request": "launch",
             "mainClass": "pertemuan13.PengunjungCafe12",
