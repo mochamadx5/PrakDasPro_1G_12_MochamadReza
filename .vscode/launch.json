@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Kubus12",
+            "request": "launch",
+            "mainClass": "pertemuan13.Kubus12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "programKu",
             "request": "launch",
             "mainClass": "pertemuan13.programKu",
