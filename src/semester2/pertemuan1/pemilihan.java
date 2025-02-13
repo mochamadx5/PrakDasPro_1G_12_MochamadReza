@@ -8,7 +8,7 @@ public class pemilihan {
         Scanner sc = new Scanner(System.in);
         double nilaiAkhir, nilaiTugas, nilaiUTS, nilaiUAS, nilaiKuis;
 
-        System.out.println("Program menghitung nilai akhir mahasiswa");
+        System.out.println("Program menghitung nilai akhir Mahasiswa");
         System.out.println("===============================");
         System.out.print("Masukkan nilai tugas: ");
         nilaiTugas = sc.nextDouble();
