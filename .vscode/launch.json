@@ -6,6 +6,139 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fungsi",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.fungsi",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "tugas3",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.tugas3",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "tugas2",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.tugas2",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "pemilihan2",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.pemilihan2",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "perulangan",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.perulangan",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "PerulanganNIM",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.PerulanganNIM",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.array",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "pemilihan",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.pemilihan",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "pertemuan1",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan1.pertemuan1",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "UAS1G12",
+            "request": "launch",
+            "mainClass": "UASPrakDaspro.UAS1G12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "kuis1",
+            "request": "launch",
+            "mainClass": "pertemuan4.kuis1",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "PemilihanHari12",
+            "request": "launch",
+            "mainClass": "pertemuan5.PemilihanHari12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "PemilihanHariIf12",
+            "request": "launch",
+            "mainClass": "pertemuan5.PemilihanHariIf12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "PemilihanOperator12",
+            "request": "launch",
+            "mainClass": "pertemuan5.PemilihanOperator12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "PemilihanSwitch12",
+            "request": "launch",
+            "mainClass": "pertemuan5.PemilihanSwitch12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "Bilangan",
+            "request": "launch",
+            "mainClass": "pertemuan6.Bilangan",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "KafeDoWhile12",
+            "request": "launch",
+            "mainClass": "pertemuan7.KafeDoWhile12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "triangle12",
+            "request": "launch",
+            "mainClass": "pertemuan8.triangle12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "rataNilai12",
+            "request": "launch",
+            "mainClass": "pertemuan8.rataNilai12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "tugasMahasiswa",
             "request": "launch",
             "mainClass": "pertemuan13.tugasMahasiswa",

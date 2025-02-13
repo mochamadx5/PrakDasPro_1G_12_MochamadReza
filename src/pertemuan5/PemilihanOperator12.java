@@ -12,7 +12,7 @@ public class PemilihanOperator12 {
         System.out.print("Masukkan nama hari: ");
         String hariLibur = sc.nextLine();
 
-        if (hariLibur.equals("Minggu")) {
+        if (hariLibur.equalsIgnoreCase("Minggu")) {
             System.out.println("Minggu adalah hari libur");
         } else {
             System.out.println(hariLibur + " bukan hari libur");

@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class Bilangan {
     public static void main(String[] args) {
-        // Deklarasi variabel
         Scanner scanner = new Scanner(System.in);
         
-        // Input tiga bilangan
         System.out.print("Masukkan bilangan 1: ");
         int bil1 = scanner.nextInt();
         
@@ -17,21 +15,17 @@ public class Bilangan {
         System.out.print("Masukkan bilangan 3: ");
         int bil3 = scanner.nextInt();
 
-        // Menentukan bilangan terbesar
         int terbesar;
 
         if (bil1 > bil2 && bil1 > bil3) {
-            terbesar = bil1;  // bil1 yang terbesar
+            terbesar = bil1;  
         } else if (bil2 > bil1 && bil2 > bil3) {
-            terbesar = bil2;  // bil2 yang terbesar
+            terbesar = bil2;  
         } else {
-            terbesar = bil3;  // bil3 yang terbesar
+            terbesar = bil3;  
         }
 
-        // Output bilangan terbesar
         System.out.println("Bilangan terbesar: " + terbesar);
         
-        // Menutup scanner
-        scanner.close();
     }
 }

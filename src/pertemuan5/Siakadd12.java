@@ -1,9 +1,6 @@
 package pertemuan5;
 
 import java.util.Scanner;
-/**
- * Siakadd12
- */
 public class Siakadd12 {
 
     public static void main(String[] args) {
