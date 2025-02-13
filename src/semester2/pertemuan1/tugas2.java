@@ -30,7 +30,7 @@ public class tugas2 {
         
         switch (pilihan) {
             case 1:
-                System.out.println("Volume Kubus: " + Volume(sisi));
+                System.out.println("Volume kubus: " + Volume(sisi));
                 break;
             case 2:
                 System.out.println("Luas Permukaan Kubus: " + Permukaan(sisi));
