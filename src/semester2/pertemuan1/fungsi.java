@@ -40,7 +40,7 @@ public class fungsi {
                     System.out.println("Pilihan tidak valid.");
             }
         } while (pilihan != 4);
-        scanner.close();
+
     }
     static void tampilkanPendapatan() {
         for (int i = 0; i < stockBunga.length; i++) {
