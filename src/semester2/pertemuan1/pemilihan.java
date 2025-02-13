@@ -2,7 +2,7 @@ package semester2.pertemuan1;
 
 import java.util.Scanner;
 
-public class perulangan {
+public class pemilihan {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
