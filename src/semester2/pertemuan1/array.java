@@ -6,7 +6,7 @@ public class array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] mataKuliah = {"Pancasila", "Konsep Teknologi Informasi", "CTPS", "Matematika Dasar", 
-                               "Bahasa Inggris", "Dasar Pemrograman", "Praktikum Dasar Pemrograman", 
+                               "Bahasa Inggris", "Dasar pemrograman", "Praktikum Dasar Pemrograman", 
                                "Keselamatan dan Kesehatan Kerja"};
 
         double[] nilaiAngka = new double[mataKuliah.length];
