@@ -6,7 +6,7 @@ public class perulanganA {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Masukkan 2 digit terakhir NIM Anda: ");
+        System.out.print("Masukkan 2 digit terakhir NIM anda: ");
         long nim = sc.nextLong();
 
         int n = (int) (nim % 100);
