@@ -37,7 +37,7 @@ public class tugas3 {
                     tampilkanJadwalBerdasarkanSemester(semesterInput);
                     break;
                 case 4:
-                    System.out.print("Masukkan nama mata kuliah: ");
+                    System.out.print("masukkan nama mata kuliah: ");
                     String namaInput = scanner.nextLine();
                     cariMataKuliah(namaInput);
                     break;
