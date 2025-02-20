@@ -2,7 +2,7 @@ package semester2.pertemuan2;
 
 // import java.util.Scanner;
 
-public class Mahasiswa11 {
+public class Mahasiswa12 {
     String nama;
     String nim;
     String kelas;
