@@ -1,13 +1,19 @@
 package semester2.pertemuan2;
 
-// import java.util.Scanner;
-
 public class Mahasiswa12 {
     String nama;
     String nim;
     String kelas;
     double IPK;
+    public Mahasiswa12 () {
 
+    }
+    public Mahasiswa12 (String nm, String nim, double IPK, String kls) {
+        nama = nm;
+        this.nim = nim;
+        this.IPK = IPK;
+        kelas=kls;
+    }
     void tampilkanInformasi(){
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
