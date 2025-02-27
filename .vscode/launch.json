@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MahasiswaDemo12",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan3.MahasiswaDemo12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "DosenMain12",
             "request": "launch",
             "mainClass": "semester2.pertemuan2.DosenMain12",
