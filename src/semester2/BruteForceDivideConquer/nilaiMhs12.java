@@ -40,8 +40,8 @@ public class nilaiMhs12 {
 
         double uasRata = rataUAS(nilaiUAS);
 
-        System.out.println("Nilai UTS tertinggi (Divide & Conquer) : " + utsMax);
-        System.out.println("Nilai UTS terendah (Divide & Conquer)  : " + utsMin);
-        System.out.println("Rata-rata nilai UAS (Brute Force)      : " + uasRata);
+        System.out.println("Nilai UTS tertinggi  : " + utsMax);
+        System.out.println("Nilai UTS terendah   : " + utsMin);
+        System.out.println("Rata-rata nilai UAS  : " + uasRata);
     }
 }
