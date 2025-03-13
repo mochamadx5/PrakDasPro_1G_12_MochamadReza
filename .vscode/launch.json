@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nilaiMhs12",
+            "request": "launch",
+            "mainClass": "semester2.BruteForceDivideConquer.nilaiMhs12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "DosenDemo12",
             "request": "launch",
             "mainClass": "semester2.pertemuan3.DosenDemo12",
