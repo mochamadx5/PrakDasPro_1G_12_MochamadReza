@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class mainSum12 {
     public static void main(String[] args) {
         Scanner input20 = new Scanner(System.in);
-        System.out.print("masukkan jumlah elemen : ");
+        System.out.print("Masukkan jumlah elemen : ");
         int elemen = input20.nextInt();
 
         sum12 sm = new sum12(elemen);
