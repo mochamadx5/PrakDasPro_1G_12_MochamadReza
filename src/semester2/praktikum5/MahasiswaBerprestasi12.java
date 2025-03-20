@@ -9,7 +9,7 @@ public class MahasiswaBerprestasi12 {
             listMhs[idx]=m;
             idx++;
         } else{
-            System.out.println("data sudah penuh");
+            System.out.println("Data sudah penuh");
         }
     }
     void tampil(){
