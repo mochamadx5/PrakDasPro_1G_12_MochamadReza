@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MahasiswaModif12",
+            "request": "launch",
+            "mainClass": "semester2.praktikum5.MahasiswaModif12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "MahasiswaBerprestasi12",
+            "request": "launch",
+            "mainClass": "semester2.praktikum5.MahasiswaBerprestasi12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
+            "name": "Sorting12",
+            "request": "launch",
+            "mainClass": "semester2.praktikum5.Sorting12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "nilaiMhs12",
             "request": "launch",
             "mainClass": "semester2.BruteForceDivideConquer.nilaiMhs12",
