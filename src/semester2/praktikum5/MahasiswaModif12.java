@@ -34,7 +34,7 @@ public class MahasiswaModif12 {
     void tampil() {
         for (Mahasiswa12 m : listMhs) {
             m.tampilInformasi();
-            System.out.println("--------------");
+            System.out.println("---------------");
         }
     }
 
