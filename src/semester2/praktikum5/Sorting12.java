@@ -75,7 +75,7 @@ public class Sorting12 {
         int c[]= {40, 10, 4, 9, 3};
         Sorting12 dataurut3 = new Sorting12(c, c.length);
 
-        System.out.println("Data awal 3");
+        System.out.println("data awal 3");
         dataurut3.tampil();
         dataurut3.insertionSort();
         System.out.println("Data sudah diurutkan dengan INSERTION SORT (ASC)");
