@@ -12,27 +12,32 @@ public class DosenDemo12 {
         Dosen12[] daftarDosen = new Dosen12[jumlahDosen];
         for (int i = 0; i < jumlahDosen; i++) {
             System.out.println("\nMasukkan data dosen ke-" + (i + 1));
-            System.out.print("Kode        : ");
+            System.out.print("Kode            : ");
             String kode = sc.nextLine();
-            System.out.print("Nama        : ");
+            System.out.print("Nama            : ");
             String nama = sc.nextLine();
             System.out.print("Jenis Kelamin (L/P): ");
             char jk = sc.nextLine().charAt(0);
-            boolean jenisKelamin = (jk == 'L' || jk == 'l'); 
-            System.out.print("Usia        : ");
+            boolean jenisKelamin = (jk == 'L' || jk == 'l');
+            System.out.print("Usia            : ");
             int usia = Integer.parseInt(sc.nextLine());
 
             daftarDosen[i] = new Dosen12(kode, nama, jenisKelamin, usia);
         }
+        DataDosen12.dataSemuaDosen(daftarDosen);
+        DataDosen12.jumlahDosenPerJenisKelamin(daftarDosen);
+        DataDosen12.rerataUsiaDosenPerJenisKelamin(daftarDosen);
+        DataDosen12.infoDosenPalingTua(daftarDosen);
+        DataDosen12.infoDosenPalingMuda(daftarDosen);
 
-        System.out.println("\nData Dosen:");
-        for (Dosen12 dosen : daftarDosen) {
-            System.out.println("------------------------");
-            System.out.println("Kode        : " + dosen.kode);
-            System.out.println("Nama        : " + dosen.nama);
-            System.out.println("Jenis Kelamin : " + (dosen.jenisKelammin ? "Laki-laki" : "Perempuan"));
-            System.out.println("Usia        : " + dosen.usia);
-        }
+        System.out.print("\nMasukkan nama dosen yang ingin dicari (Sequential Search): ");
+        String namaCari = sc.nextLine();
+        DataDosen12.pencarianDataSequential(daftarDosen, namaCari);
 
+        System.out.print("\nMasukkan usia dosen yang ingin dicari (Binary Search): ");
+        int usiaCari = Integer.parseInt(sc.nextLine());
+        DataDosen12.pencarianDataBinary(daftarDosen, usiaCari);
+
+        sc.close();
     }
 }
