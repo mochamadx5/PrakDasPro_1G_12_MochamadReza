@@ -35,7 +35,7 @@ public class MahasiswaDemo12 {
 
     void tampilData() {
         for (int i = 0; i < arrayofMahasiswa12.length; i++) {
-            System.out.println("Mahasiswa ke- " + (i + 1));
+            System.out.println("Mahasiswa Ke- " + (i + 1));
             System.out.println("NIM : " + arrayofMahasiswa12[i].nim);
             System.out.println("Nama : " + arrayofMahasiswa12[i].nama);
             System.out.println("Kelas : " + arrayofMahasiswa12[i].kelas);
