@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Datadosen12",
+            "request": "launch",
+            "mainClass": "semester2.praktikum5.Datadosen12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "MahasiswaModif12",
             "request": "launch",
             "mainClass": "semester2.praktikum5.MahasiswaModif12",

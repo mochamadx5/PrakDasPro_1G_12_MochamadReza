@@ -20,7 +20,7 @@ public class MahasiswaDemo12 {
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 3; i++) {
             arrayofMahasiswa12[i] = new Mahasiswa12();
-            System.out.println("Masukkan Data Mahasiswa ke- " + (i + 1));
+            System.out.println("masukkan Data Mahasiswa ke- " + (i + 1));
             System.out.print("NIM : ");
             arrayofMahasiswa12[i].nim = sc.nextLine();
             System.out.print("Nama : ");
@@ -37,7 +37,7 @@ public class MahasiswaDemo12 {
         for (int i = 0; i < arrayofMahasiswa12.length; i++) {
             System.out.println("Mahasiswa Ke- " + (i + 1));
             System.out.println("NIM : " + arrayofMahasiswa12[i].nim);
-            System.out.println("nama : " + arrayofMahasiswa12[i].nama);
+            System.out.println("Nama : " + arrayofMahasiswa12[i].nama);
             System.out.println("Kelas : " + arrayofMahasiswa12[i].kelas);
             System.out.println("IPK : " + arrayofMahasiswa12[i].ipk);
             System.out.println("-------------------------------- ");
