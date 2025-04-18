@@ -73,7 +73,7 @@ public class MahasiswaBerprestasi12 {
             System.out.println("ipk\t : " +x);
         }
         else {
-            System.out.println("data mahasiswa dengan IPK" +x+ "tidak ditemukan");
+            System.out.println("Data mahasiswa dengan IPK" +x+ "tidak ditemukan");
         }
     }
     public static void main(String[] args) {
