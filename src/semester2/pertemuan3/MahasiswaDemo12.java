@@ -11,16 +11,18 @@ class Mahasiswa12 {
 
 public class MahasiswaDemo12 {
     Mahasiswa12[] arrayofMahasiswa12;
+    int jumlah;
 
-    public MahasiswaDemo12() {
-        arrayofMahasiswa12 = new Mahasiswa12[3];
+    public MahasiswaDemo12(int jumlah) {
+        this.jumlah = jumlah;
+        arrayofMahasiswa12 = new Mahasiswa12[jumlah];
     }
 
     void inputData() {
         Scanner sc = new Scanner(System.in);
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < jumlah; i++) {
             arrayofMahasiswa12[i] = new Mahasiswa12();
-            System.out.println("masukkan Data Mahasiswa ke- " + (i + 1));
+            System.out.println("Masukkan Data Mahasiswa ke- " + (i + 1));
             System.out.print("NIM : ");
             arrayofMahasiswa12[i].nim = sc.nextLine();
             System.out.print("Nama : ");
@@ -35,7 +37,7 @@ public class MahasiswaDemo12 {
 
     void tampilData() {
         for (int i = 0; i < arrayofMahasiswa12.length; i++) {
-            System.out.println("Mahasiswa Ke- " + (i + 1));
+            System.out.println("Mahasiswa ke- " + (i + 1));
             System.out.println("NIM : " + arrayofMahasiswa12[i].nim);
             System.out.println("Nama : " + arrayofMahasiswa12[i].nama);
             System.out.println("Kelas : " + arrayofMahasiswa12[i].kelas);
@@ -98,7 +100,10 @@ public class MahasiswaDemo12 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        MahasiswaDemo12 demo = new MahasiswaDemo12();
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumlah = Integer.parseInt(sc.nextLine());
+
+        MahasiswaDemo12 demo = new MahasiswaDemo12(jumlah);
         demo.inputData();
 
         System.out.println("Data Mahasiswa sebelum sorting:");
