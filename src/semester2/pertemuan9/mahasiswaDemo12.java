@@ -14,7 +14,9 @@ public class mahasiswaDemo12 {
             System.out.println("2. Menilai Tugas");
             System.out.println("3. Melihat Tugas Teratas");
             System.out.println("4. Melihat Daftar Tugas");
-            System.out.println("5. Keluar");
+            System.out.println("5. Melihat Tugas Terbawah");
+            System.out.println("6. Lihat Jumlah Tugas yang Dikumpulkan");
+            System.out.println("7. Keluar");
             System.out.print("Pilih : ");
             pilih = sc.nextInt();
             sc.nextLine(); 
@@ -56,8 +58,18 @@ public class mahasiswaDemo12 {
                     System.out.println("Nama\tNIM\tKelas");
                     stack.print();
                     break;
-
                 case 5:
+                    mahasiswa12 tugasTerbawah = stack.lihatTugasTerbawah();
+                    if (tugasTerbawah != null) {
+                        System.out.println("Tugas pertama yang dikumpulkan oleh " + tugasTerbawah.nama);
+                    }
+                    break;
+                case 6:
+                    int jumlah = stack.jumlahTugas();
+                    System.out.printf("Jumlah tugas yang sudah dikumpulkan saat ini: %d\n", jumlah);
+                    break;
+                
+                case 7:
                     System.out.println("Keluar dari program.");
                     break;
 
@@ -65,6 +77,6 @@ public class mahasiswaDemo12 {
                     System.out.println("Pilihan tidak valid.");
             }
 
-        } while (pilih >= 1 && pilih <= 4);
+        } while (pilih >= 1 && pilih <= 6);
     }
 }
