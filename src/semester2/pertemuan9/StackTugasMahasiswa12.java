@@ -38,7 +38,7 @@ public class StackTugasMahasiswa12 {
             top--;
             return m;
         } else {
-            System.out.println("Stack Kosong! Tidak ada tugas untuk dinilai.");
+            System.out.println("stack Kosong! Tidak ada tugas untuk dinilai.");
             return null;
         }
     }

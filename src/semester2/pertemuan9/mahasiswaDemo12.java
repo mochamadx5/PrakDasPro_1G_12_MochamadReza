@@ -52,7 +52,7 @@ public class mahasiswaDemo12 {
                     break;
 
                 case 4:
-                    System.out.println("Daftar semua tugas:");
+                    System.out.println("Daftar Semua tugas:");
                     System.out.println("Nama\tNIM\tKelas");
                     stack.print();
                     break;

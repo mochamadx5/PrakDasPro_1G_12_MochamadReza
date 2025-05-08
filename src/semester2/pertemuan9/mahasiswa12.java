@@ -6,7 +6,8 @@ public class mahasiswa12 {
     public String kelas;
 
     mahasiswa12 (String nama, String nim, String kelas){
-        this.nama = nama;
+        this.nama = nama; 
+        // reza
         this.nim = nim;
         this.kelas = kelas;
         nilai = -1;
