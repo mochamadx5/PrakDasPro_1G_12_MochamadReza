@@ -77,7 +77,7 @@ public class Queue12 {
     public int Dequeue(){
         int dt = 0;
         if (isEmpty()) {
-            System.out.println("Queue masih kosong");
+            System.out.println("Queue Masih kosong");
             System.exit(0); 
             return 0;
         } else {
