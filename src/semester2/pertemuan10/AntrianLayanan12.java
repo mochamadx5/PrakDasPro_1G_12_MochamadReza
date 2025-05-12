@@ -44,6 +44,15 @@ public class AntrianLayanan12 {
             data[front].tampilkanData();
         }
     }
+    public void lihatAkhir(){
+        if (isEmpty()) {
+            System.out.println("Antrian kosong.");
+        } else{
+            System.out.println("Mahasiswa terakhir dalam antrian : ");
+            System.out.println("NIM - NAMA - PRODI - KELAS");
+            data[rear].tampilkanData();
+        }
+    }
     public void tampilkanSemua(){
         if (isEmpty()) {
             System.out.println("antrian kosong.");
