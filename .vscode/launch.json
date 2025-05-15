@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TugasMain12",
+            "request": "launch",
+            "mainClass": "semester2.pertemuan12.TugasMain12",
+            "projectName": "PrakDasPro_1G_12_MochamadReza_f49bb1b4"
+        },
+        {
+            "type": "java",
             "name": "SLLMain12",
             "request": "launch",
             "mainClass": "semester2.pertemuan12.SLLMain12",
