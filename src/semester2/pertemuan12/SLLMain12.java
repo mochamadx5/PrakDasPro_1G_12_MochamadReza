@@ -1,22 +1,36 @@
 package semester2.pertemuan12;
 
+import java.util.Scanner;
+
 public class SLLMain12 {
     public static void main(String[] args) {
-        Mahasiswa12 dummy = new Mahasiswa12("","","",0);
-        Mahasiswa12.SingleLinkedList sll = dummy.new SingleLinkedList();
+        Scanner sc = new Scanner(System.in);
+        Mahasiswa12.SingleLinkedList list = new Mahasiswa12(null, null, null, 0).new SingleLinkedList();
+
+        System.out.print("Masukkan jumlah data mahasiswa : ");
+        int jumlah = sc.nextInt();
+        sc.nextLine();
     
-        Mahasiswa12 mhs1 = new Mahasiswa12("223040001", "Dirga", "TI-1A", 3.5);
-        Mahasiswa12 mhs2 = new Mahasiswa12("223040002", "Cintia", "TI-1B", 3.7);
-        Mahasiswa12 mhs3 = new Mahasiswa12("223040003", "Bimon", "TI-1A", 3.8);
-        Mahasiswa12 mhs4 = new Mahasiswa12("223040004", "Alvaro", "TI-1C", 3.6);
-        
-        sll.print();
-        sll.addFirst(mhs4);
-        sll.print();
-        sll.addLast(mhs1);
-        sll.print();
-        sll.insertAfter("Dirga", mhs3);
-        sll.insertAt(2, mhs2);
-        sll.print();
+        for (int i = 0; i < jumlah; i++) {
+            System.out.println("\nData Mahasiswa ke-" + (i + 1));
+            System.out.print("Nama: ");
+            String nama = sc.nextLine();
+            System.out.print("NIM: ");
+            String nim = sc.nextLine();
+            System.out.print("Kelas: ");
+            String kelas = sc.nextLine();
+            System.out.print("IPK: ");
+            double ipk = sc.nextDouble();
+            sc.nextLine(); 
+
+            Mahasiswa12 mhs = new Mahasiswa12(nim, nama, kelas, ipk);
+            
+            list.addLast(mhs);
+        }
+
+        System.out.println("\nDaftar Mahasiswa:");
+        list.print();
+
+        sc.close();
     }
 }
