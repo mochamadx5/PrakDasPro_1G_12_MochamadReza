@@ -1,6 +1,7 @@
 package semester2.pertemuan16;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class DemoArrayList12 {
     ArrayList<customer12> customers = new ArrayList<>(2);
@@ -18,11 +19,13 @@ public class DemoArrayList12 {
 
         customers.addAll(newCustomers);
 
-        System.out.println(customers);
+        // Urutkan berdasarkan nama
+        customers.sort((c1, c2) -> c1.name.compareTo(c2.name));
     }
-    public void printCustomers () {
+
+    public void printCustomers() {
         for (customer12 cust : customers) {
-            System.out.println(cust.toString());
+            System.out.println(cust);
         }
     }
 }
